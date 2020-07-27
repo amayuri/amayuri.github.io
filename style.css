@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    color: rgb(150, 150, 150);
+    box-sizing: border-box;
+}
+:root {
+    font-size: 14pt;
+    font-feature-settings: "palt";
+}
+.global-nav {
+    position: fixed;
+    display: flex;
+    background: white;
+    height: 50px;
+    width: 100%;
+    color: gray;
+    align-items: center;
+    border: 1px solid rgb(130, 130, 130);
+}
+.global-nav h1 {
+    flex: 1;
+    padding: 20px;
+}
+.global-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.global-nav ul li {
+    padding: 1rem;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    align-items: center;
+    height: 500px;
+    background: #ccc;
+    font-size: 140%;
+    border: 1px solid gray;
+}
+.vision {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    font-size: 170%;
+    justify-content: center;
+    text-align: center;
+}
+.service h3 {
+    text-align: center;
+    font-size: 230%;
+}
+.service-item-container {
+    display: grid;
+    grid-template:
+    "img img img"
+    "name name name"
+    "main main main";
+    padding: 20px 80px;
+    gap: 40px;
+}
+.service-item {
+    border: 1px solid rgb(130, 130, 130);
+}
+.service-header {
+    grid-area: img;
+    height: 140px;
+    background: rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(130, 130, 130);
+}
+.service-item h4 {
+    grid-area: name;
+    font-size: 25px;
+    padding: 20px;
+}
+.service-item p {
+    grid-area: main;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+.voice {
+    height: 500px;
+    padding: 80px;
+}
+.voice h3 {
+    text-align: center;
+}
+.voice-item-container {
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 20px;
+    margin: 20px 10%;
+    padding: 25px 60px;
+}
+.voice-item {
+    display: flex;
+}
+.voice-photo {
+    background: rgb(200, 200, 200);
+    height: 65px;
+    width: 100px;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 50%;
+    margin: 10px;
+}
+.voice-text {
+    text-align: justify;
+}
+footer {
+    background: rgb(50, 50, 50);
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    list-style: none;
+}
+footer ul li {
+    font-size: 85%;
+    padding: 10px;
+}
