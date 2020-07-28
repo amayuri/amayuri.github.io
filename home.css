@@ -107,13 +107,14 @@ h3 {
     justify-content: center;
     padding-top: 60px;
     align-items: center;
-    height: 700px;
-    background: white;
+    height: 800px;
+    background: var(--orange-light);
     font-size: 140%;
 }
 .top-page-text {
     font-family: 'Caveat', cursive;
     font-size: 1.8em;
+    color: white;
 }
 
 
