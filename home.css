@@ -172,29 +172,6 @@ h3 {
     text-align: center;
 }
 
-.service-item {
-    border: 1px solid rgb(130, 130, 130);
-}
-.service-header {
-    grid-area: img;
-    height: 140px;
-    background: rgb(200, 200, 200);
-    border-bottom: 1px solid rgb(130, 130, 130);
-}
-.service-item h4 {
-    grid-area: name;
-    font-size: 25px;
-    padding: 20px;
-}
-.service-item p {
-    grid-area: main;
-    padding: 0px 20px 20px 20px;
-    text-align: justify;
-}
-
-
-
-
 
 
 
