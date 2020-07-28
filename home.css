@@ -171,6 +171,23 @@ h3 {
 .home-works h3 {
     text-align: center;
 }
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    min-width: 960px;
+    height: 600px;
+    margin: 0 20px;
+}
+.slideshow img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+    height: 100%;
+}
+.slideshow img:first-child {
+    display: inline;
+}
 
 
 
