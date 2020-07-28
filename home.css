@@ -250,6 +250,9 @@ a.btn_02:hover:before {
 	width: 100%;
 	height: 100%;
 }
+.swiper-button-prev, .swiper-button-next, .swiper-pagination {
+    color: var(--orange);
+}
 
 
 
