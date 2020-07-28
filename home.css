@@ -141,7 +141,7 @@ h3 {
 
 
 
-.home-skills h3 {
+.home-works h3 {
     text-align: center;
 }
 .service-item-container {
@@ -172,7 +172,7 @@ h3 {
     padding: 0px 20px 20px 20px;
     text-align: justify;
 }
-.home-works {
+.home-skills {
     height: 500px;
     padding: 80px;
 }
@@ -181,7 +181,7 @@ h3 {
 
 
 
-.home-works h3 {
+.home-skills h3 {
     text-align: center;
 }
 .voice-item-container {
