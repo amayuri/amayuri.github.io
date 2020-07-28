@@ -143,9 +143,14 @@ h3 {
 
 
 
-
+.home-skills {
+    padding: 0 10%;
+}
 .home-skills h3 {
     text-align: center;
+}
+.home-skills img {
+    width: 20%;
 }
 
 
