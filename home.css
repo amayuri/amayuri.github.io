@@ -127,7 +127,7 @@ h3 {
 .profile-square {
     border: 4px solid var(--orange);
     margin: auto;
-    padding: 3rem 4rem;
+    padding: 3rem 8rem;
 }
 .profile-photo-home {
     width: 12em;
