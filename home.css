@@ -107,9 +107,9 @@ h3 {
     justify-content: center;
     padding-top: 60px;
     align-items: center;
+    height: 700px;
     background: white;
     font-size: 140%;
-    margin: 10em 0;
 }
 .top-page-text {
     font-family: 'Caveat', cursive;
@@ -125,10 +125,10 @@ h3 {
 .home-profile {
     display: flex;
     flex-direction: column;
-    height: 900px;
     justify-content: center;
     text-align: center;
     line-height: 2em;
+    margin: 10em 0;
 }
 .profile-square {
     border: 4px solid var(--orange);
