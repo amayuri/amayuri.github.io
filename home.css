@@ -167,7 +167,9 @@ h3 {
 
 
 
-
+.home-works {
+    padding: 0 17%;
+}
 .home-works h3 {
     text-align: center;
 }
