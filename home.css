@@ -133,6 +133,9 @@ h3 {
     width: 12em;
     padding-bottom: 1.7em;
 }
+.home-profile span {
+    font-size: 1.3em;
+}
 
 
 
@@ -172,28 +175,32 @@ h3 {
     padding: 0px 20px 20px 20px;
     text-align: justify;
 }
+
+
+
+
+
+
+
+
+
 .home-skills {
     height: 500px;
     padding: 80px;
 }
-
-
-
-
-
 .home-skills h3 {
     text-align: center;
 }
-.voice-item-container {
+.skill-item-container {
     border: 1px solid rgb(180, 180, 180);
     border-radius: 20px;
     margin: 20px 10%;
     padding: 25px 60px;
 }
-.voice-item {
+.skill-item {
     display: flex;
 }
-.voice-photo {
+.skill-photo {
     background: rgb(200, 200, 200);
     height: 65px;
     width: 100px;
@@ -201,7 +208,7 @@ h3 {
     border-radius: 50%;
     margin: 10px;
 }
-.voice-text {
+.skill-text {
     text-align: justify;
 }
 
