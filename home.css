@@ -46,7 +46,7 @@ h3 {
 	padding: 0 1.5rem;
 	position: fixed;
 	justify-content: space-between;
-	transition: .5s;
+	transition: 1s;
 	width: 100%;
     z-index: 99;
     color: #fff;
