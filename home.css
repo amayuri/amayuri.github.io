@@ -133,7 +133,10 @@ h3 {
     width: 12em;
     padding-bottom: 0.5em;
 }
-.home-profile span {
+.home-profile .profile-text {
+    font-size: 0.8em;
+}
+.home-profile .name {
     font-size: 1.5em;
 }
 
