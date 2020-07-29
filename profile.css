@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    color: rgb(86, 99, 96);
+    box-sizing: border-box;
+}
+:root {
+    font-size: 12pt;
+    font-feature-settings: "palt";
+    font-family: 'Sawarabi Gothic', sans-serif;
+
+    --lightbrown: rgba(150, 138, 123, 0.5);
+    --brown: rgba(74, 61, 46, 0.5);
+    --orange: rgba(231, 76, 60, 1);
+    --orange-light: rgba(231, 76, 60, 0.7);
+    --navy: rgba(24, 57, 66, 1);
+    --navy-light: rgba(24, 57, 66, 0.8);
+    --yellow: rgba(219, 182, 49, 0.5);
+
+}
+
+.header-text1, .header-text2, h3, .copyright {
+    font-family: 'Caveat', cursive;
+}
+
+h3 {
+    font-size: 4rem;
+    padding: 70px 50px 80px 50px;
+}
+
+
+
+
+
+
+
+
+.header-menu{
+    background: var(--navy-light);
+    display: flex;
+    padding: 0 1.5rem;
+    justify-content: space-between;
+    transition: 1s;
+    width: 100%;
+    z-index: 99;
+    color: #fff;
+    height: 60px;
+    align-items: center;
+}
+.header-menu a {
+    text-decoration: none;
+    color: white;
+}
+.header-text1 {
+    font-size: 2.5em;
+}
+
+
+.header-menu h1 {
+    flex: 1;
+    padding: 0;
+    font-size: 2.5em;
+}
+.header-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.header-menu ul li {
+    margin: 0.5rem;
+    padding: 0.3rem 1rem;
+    
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+#home-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    line-height: 2em;
+    margin: 5em 0;
+}
+#home-profile h3{
+    text-align: center;
+    margin: 20px 0;
+    transition: .8s;
+}
+.profile-square {
+    border-left: 6px solid var(--orange);
+    margin: auto;
+    padding-left: 3em;
+}
+.profile-photo-home {
+    width: 12em;
+    padding-bottom: 0.5em;
+}
+#home-profile .name {
+    font-size: 1.7em;
+}
+
+
+
+
+
+
+footer {
+    background: white;
+    text-align: center;
+    padding: 30px;
+    padding-top: 130px;
+}
+
+#page_top{
+    width: 60px;
+    height: 60px;
+    margin-left: 7%;
+  }
+#page_top a{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f0aa';
+    font-size: 60px;
+    color: var(--navy-light);
+}
+.copyright {
+    text-align: end;
+    font-size: 1.8em;
+    margin-right: 3%;
+}
