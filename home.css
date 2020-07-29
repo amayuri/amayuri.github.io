@@ -291,8 +291,8 @@ footer {
     color: var(--navy-light);
   }
 
-.copyright {
+  .copyright {
     text-align: end;
-    font-size: 2em;
-    margin-right: 50px;
+    font-size: 1.8em;
+    margin-right: 3%;
 }
