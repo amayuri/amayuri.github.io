@@ -61,23 +61,12 @@ h3 {
 
 .header-menu a {
     text-decoration: none;
-}
-
-
-
-.header-text1 {
     color: transparent;
-    
 }
-.header-text1.transform {
+.header-menu a.transform {
+    text-decoration: none;
     color: white;
 }
-.header-text2 {
-    color: transparent;
-    border: none;
-}
-.header-text2.transform {
-    color: white;
 
     /*
     border-right: 2.7px solid rgba(255, 255, 255, 0.3);

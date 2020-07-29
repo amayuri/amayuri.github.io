@@ -24,7 +24,7 @@ $(function(){
 
 $(function(){
 	var _window = $(window),
-		_header = $('.header-text1, .header-text2'),
+		_header = $('.header-menu a'),
 		heroBottom;
 	
 	_window.on('scroll',function(){
