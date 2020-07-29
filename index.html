@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
   <link rel="stylesheet" href="home.css">
   
   <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
@@ -26,12 +28,12 @@
 
   <header class="header-menu">
     
-    <h1 class="header-text1">AmanoYuri</h1>
+    <h1 class="header-text1" font color="transparent"><a href="index.html">AmanoYuri</a></h1>
     <nav id="global-nav"></nav>
       <ul>
-        <li class="header-text2">profile</li>
-        <li class="header-text2">skills</li>
-        <li class="header-text2">works</li>
+        <li class="header-text2"> <a href="profile.html">profile</a></li>
+        <li class="header-text2"> <a href="skills.html">skills</a></li>
+        <li class="header-text2"> <a href="works.html">works</a></li>
       </ul>
     </nav>
   </header>
@@ -61,7 +63,7 @@
     </p>
 
     <section class=“button-profile”>
-          <a href="#" class="btn_02">BUTTON</a>
+          <a href="profile.html" class="btn_02">more</a>
         </section>
 
   </section>
@@ -69,46 +71,55 @@
 
   <section class="home-skills">
     <h3>skills</h3>
-        <img src="Ai.png" alt="">
+        <img src="Ai.png" alt="" class="img-pa">
         <img src="Ps.png" alt="">
         <img src="Ae.png" alt=""><br>
-        <img src="c++.png" alt="">
+        <img src="c++.png" alt="" class="img-pa">
         <img src="html.png" alt=""><br>
-        <img src="js.png" alt="">
+        <img src="js.png" alt="" class="img-pa">
         <img src="jquery.png" alt=""><br>
-        <img src="MAYA.png" alt=""> 
+        <img src="MAYA.png" alt="" class="img-pa"> 
+
+        <div>
+          <ul>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Photoshop</li>
+            <li>HTML</li>
+            <li>MAYA software</li>
+            <li>C++　　　　　　　etc...</li>
+          </ul>
+        </div>
   </section>
+  <section class=“button-skills”>
+      <a href="skills.html" class="btn_02">more</a>
+    </section>
+
+
+
 
 
   <section class="home-works">
     <h3>works</h3>
     
-    <nav class="slider-controller">
-        <div class="slideshow">
-            <img src="work01.png" alt="">
-            <img src="work02.png" alt="">
-            <img src="image03.jpg" alt="">
-            <img src="image04.jpg" alt="">
-            <img src="image05.jpg" alt="">
-        </div>
 
         <!-- Swiper START -->
 <div class="swiper-container">
-	<!-- メイン表示部分 -->
-	<div class="swiper-wrapper">
-		<!-- 各スライド -->
-		<div class="swiper-slide">Slide 1</div>
-		<div class="swiper-slide">Slide 2</div>
-		<div class="swiper-slide">Slide 3</div>
-		<div class="swiper-slide">Slide 4</div>
-	</div>
-	<div class="swiper-button-prev"></div>
-	<div class="swiper-button-next"></div>
-	<div class="swiper-pagination"></div>
+    <!-- メイン表示部分 -->
+    <div class="swiper-wrapper">
+        <!-- 各スライド -->
+        <div class="swiper-slide"><img src="work01.png" alt=""></div>
+        <div class="swiper-slide"><img src="work02.png" alt=""></div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
 </div>
 <!-- Swiper END -->
 
   </section>
+  <section class=“button-works”>
+      <a href="works.html" class="btn_02">more</a>
+    </section>
 
   
   
@@ -116,6 +127,8 @@
 
   <footer>
     
+    <div id="page_top"><a href="index.html"></a></div>
+
     <p class="copyright">(c) amayuri</p>
   </footer>
 
