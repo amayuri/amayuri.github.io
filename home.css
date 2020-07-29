@@ -130,13 +130,13 @@ h3 {
 
 
 
-.home-profile {
+#home-profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     line-height: 2em;
-    margin: 10em 0;
+    margin: 10em 0 15em 0;
 }
 .profile-square {
     border: 4px solid var(--orange);
@@ -147,17 +147,14 @@ h3 {
     width: 12em;
     padding-bottom: 0.5em;
 }
-.home-profile .name {
+#home-profile .name {
     font-size: 1.7em;
 }
 
 
 
 
-.button-profile {
-    max-width: 300px;
-    margin: 0 auto;
-}
+
 
 /*ボタン　後*/
 a.btn_02 {
@@ -214,14 +211,14 @@ a.btn_02:hover:before {
 
 
 
-.home-skills {
+#home-skills {
     padding: 0 17%;
     margin-top: 10em;
 }
-.home-skills h3 {
+#home-skills h3 {
     text-align: center;
 }
-.home-skills img {
+#home-skills img {
     width: 15%;
     margin: 2.3%;
 }
@@ -241,10 +238,10 @@ a.btn_02:hover:before {
 
 
 
-.home-works {
+#home-works {
     margin-top: 10em;
 }
-.home-works h3 {
+#home-works h3 {
     text-align: center;
     margin-top: 4em;
 }
