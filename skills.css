@@ -32,7 +32,7 @@ h3 {
 
 
 .header-menu{
-    background: var(--navy-light);
+    background: rgba(24, 57, 66, 0.8);
     display: flex;
     padding: 0 1.5rem;
     justify-content: space-between;
