@@ -37,7 +37,7 @@ h3 {
 
 
 .header-menu{
-    background: var(--navy-light);
+    background: rgba(24, 57, 66, 0.8);
     display: flex;
     padding: 0 1.5rem;
     justify-content: space-between;
@@ -85,6 +85,7 @@ h3 {
     flex-direction: column;
     justify-content: start;
     text-align: start;
+    width: 100%;
     line-height: 2em;
     margin: 5em 0;
 }
@@ -94,7 +95,7 @@ h3 {
     transition: .8s;
 }
 .profile-square {
-    border-left: 6px solid var(--orange);
+    border-left: 6px solid rgba(231, 76, 60, 1);
     margin: auto;
     padding-left: 3em;
 }
@@ -116,6 +117,7 @@ footer {
     text-align: center;
     padding: 30px;
     padding-top: 130px;
+    width: 100%;
 }
 .copyright {
     text-align: end;
