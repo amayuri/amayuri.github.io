@@ -133,6 +133,7 @@ h3 {
     text-align: center;
     line-height: 2em;
     margin: 10em 0 15em 0;
+    width: 100%;
 }
 .profile-square {
     border: 4px solid rgba(231, 76, 60, 1);
