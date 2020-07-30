@@ -211,6 +211,7 @@ a.btn_02:hover:before {
 #home-skills {
     padding: 0 17%;
     margin-top: 10em;
+    width: 100%;
 }
 #home-skills h3 {
     text-align: center;
@@ -237,6 +238,7 @@ a.btn_02:hover:before {
 
 #home-works {
     margin-top: 10em;
+    width: 100%;
 }
 #home-works h3 {
     text-align: center;
