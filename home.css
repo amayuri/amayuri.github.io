@@ -40,6 +40,11 @@ h3 {
 
 
 
+
+
+
+
+
 .header-menu{
     background: rgba(255,255,255,0.5);
     display: flex;
@@ -275,7 +280,6 @@ footer {
     text-align: center;
     padding: 30px;
     padding-top: 130px;
-    width: 100%;
 }
 
 #page_top{
@@ -299,4 +303,49 @@ footer {
     text-align: end;
     font-size: 1.8em;
     margin-right: 3%;
+}
+
+
+
+
+
+
+/*カーソル*/
+
+
+html,body,a{
+    cursor: none;
+}
+
+
+
+#cursor {
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background:rgba(24, 57, 66, 0.8);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+#cursor.active {
+    transform: scale(0);
+}
+#stalker {
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(219, 182, 49, 1);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    transition: 0.25s;
+    opacity: .3;
+    pointer-events: none;
+    z-index: 1;
+}
+#stalker.active{
+    transform: scale(3);
 }
