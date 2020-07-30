@@ -74,6 +74,7 @@ h3 {
 
 
 #home-skills {
+    transition: .8s;
     padding: 0 17%;
     margin-top: 5em;
 }
