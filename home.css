@@ -54,7 +54,7 @@ h3 {
     align-items: center;
 }
 .header-menu.transform{
-    background: var(--navy-light);
+    background: rgba(24, 57, 66, 0.8);
     height: 60px;
 }
 
@@ -134,7 +134,7 @@ h3 {
     margin: 10em 0 15em 0;
 }
 .profile-square {
-    border: 4px solid var(--orange);
+    border: 4px solid rgba(231, 76, 60, 1);
     margin: auto;
     padding: 3rem 8rem;
 }
@@ -156,7 +156,7 @@ a.btn_02 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--orange);
+    background: rgba(231, 76, 60, 1);
     
     box-sizing: border-box;
     width: 5em;
@@ -170,13 +170,13 @@ a.btn_02 {
     font-size: 1.1em;
     margin: 2em 25% 4em auto;
 
-    border: 1px solid var(--orange);
+    border: 1px solid rgba(231, 76, 60, 1);
     color: #fff;
 }
 /*三角　後*/
 a.btn_02:hover {
     background: white;
-    color: var(--orange);
+    color: rgba(231, 76, 60, 1);
 
 }
 
@@ -196,7 +196,7 @@ a.btn_02:before {
 }
 /*三角　前*/
 a.btn_02:hover:before {
-    border-color: transparent transparent transparent var(--orange);
+    border-color: transparent transparent transparent rgba(231, 76, 60, 1);
 }
 
 
@@ -252,7 +252,7 @@ a.btn_02:hover:before {
 }
 
 .swiper-button-prev, .swiper-button-next, .swiper-pagination {
-    color: var(--orange);
+    color: rgba(231, 76, 60, 1);
     width: 20%;
 }
 
@@ -278,20 +278,19 @@ footer {
     height: 60px;
     margin-left: 7%;
   }
-  #page_top a{
+#page_top a{
     width: 60px;
     height: 60px;
     text-decoration: none;
-  }
-  #page_top a::before{
+}
+#page_top a::before{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     content: '\f0aa';
     font-size: 60px;
-    color: var(--navy-light);
-  }
-
-  .copyright {
+    color: rgba(24, 57, 66, 0.8);
+}
+.copyright {
     text-align: end;
     font-size: 1.8em;
     margin-right: 3%;
