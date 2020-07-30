@@ -107,7 +107,7 @@ h3 {
     padding-top: 60px;
     align-items: center;
     height: 800px;
-    background: var(--orange-light);
+    background: rgba(231, 76, 60, 0.7);
     font-size: 140%;
 }
 .top-page-text {
