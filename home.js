@@ -96,3 +96,18 @@ $("a").on("mouseleave", function() {
     $('#cursor').removeClass("active");
     $('#stalker').removeClass("active");
 });
+
+
+//トップテキストふわっと
+$(function(){
+    $(window).scroll(function (){
+        $('.top-page-text').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 1){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+});
