@@ -124,6 +124,18 @@ h3 {
 }
 
 
+/*下から上にフェードイン*/
+.top-page-text {
+    opacity: 0.1;
+    transform: translateY(20px);
+    transition: all 1s;
+  }
+  .top-page-text.scrollin {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
 
 
 
